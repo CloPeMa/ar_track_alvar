@@ -21,7 +21,7 @@ find_package(catkin COMPONENTS
         ${MSG_DEPS}
         dynamic_reconfigure
         REQUIRED)
-
+find_package(cmake_modules)
 find_package(Eigen REQUIRED)
 find_package(OpenCV REQUIRED)
 
